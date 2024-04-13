@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black
+}
+.head{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    margin: 70px auto;
+    padding-left: 280px;
+
+
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+box-shadow:   0 0 9px #ff0000;
+    margin: 80px auto;
+}
+#timer-display{
+    width: 220px;
+    height: 40px;
+    margin: 100px auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 700px;
+    color : red;
+    font-size: 30px;  
+}
+.button{
+width:250px;  
+  display: flex;
+    justify-content:space-around;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color : whitesmoke;
+    font-size: 30px;  
+    padding-top: 20px;
+    margin: 4px auto;
+    /* margin-top: 200px; */
+
+    
+}
+#start-timer{
+    width:70px;
+    height: 30px;
+    border: 2px solid red;;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+    
+}
+#pause-timer{
+    width:70px;
+    height: 30px;
+    border: 2px solid red;;
+    border-radius: 6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke;
+    font-size: 17px;
+
+}
+#reset-timer{
+    width:70px;
+    height: 30px;
+    border: 2px solid red;;
+    border-radius: 6px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+    background-color: whitesmoke;
+}
+
+.line2{
+    border:1px solid red;
+    width:200px;
+    margin-left: 50px;
+    margin-top: 20px;
+} 
+.time{
+    padding-left: 610px;
+    margin-top: 800xp;
+    color: #ff0000;
+    font-size: 60px
+}
+.date{
+    padding-left: 670px;
+    margin-top: 800xp;
+    color: #ff0000;
+    font-size: 30px}
